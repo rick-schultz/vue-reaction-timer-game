@@ -38,6 +38,7 @@ export default {
     isCheating() {
         this.isPlaying = false
         this.showResults = false
+        this.delay = null
         this.cheatMsg = 'Please click on the green block.'
         setTimeout(() => {
           this.cheatMsg = ''
